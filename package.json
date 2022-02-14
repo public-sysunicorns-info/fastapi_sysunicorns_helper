@@ -4,8 +4,11 @@
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
     "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
@@ -22,11 +25,17 @@
       "commit-msg": "npx --no -- commitlint --edit \"\""
     }
   },
-  "plugins":[
+  "plugins": [
+    "@semantic-release/github",
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
-    ["@semantic-release/exec",{
-      "publishCmd": "sed -i '' '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py"
-    }],
+    [
+      "@semantic-release/exec",
+      {
+        "publishCmd": "sed -i '' '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py"
+      }
+    ],
     "@semantic-release/git"
   ]
 }
