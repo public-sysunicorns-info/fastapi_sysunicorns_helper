@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.2...v1.2.0) (2022-02-15)
+
+
+### Features
+
+* **pypi:** wiP pypi packaging and upload ([cd08d64](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/cd08d64911fc5f4fd2edbbf2432d6a4c713f8a22))
+
 ## [1.1.2](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.1...v1.1.2) (2022-02-15)
 
 
