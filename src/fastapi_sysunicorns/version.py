@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.9
 
-version="0.0.2"
+version="1.1.0"
 
 if __name__ == "__main__":
     print(f"{version}")

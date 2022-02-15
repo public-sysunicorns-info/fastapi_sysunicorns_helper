@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.4...v1.1.0) (2022-02-15)
+
+
+### Features
+
+* **release:** fix typo on exec config ([40cfe6c](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/40cfe6c4d4f0e84eb05a2a486e2e6c599609b2a1))
+
 ## [1.0.4](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.3...v1.0.4) (2022-02-15)
 
 
