@@ -1,0 +1,20 @@
+name: "Package Build and Push to Pypi"
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  create:
+    tags:
+    - "v**"
+jobs:
+  pypi_build_push:
+    name: Package Build and Push to Pypi
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Python Pip
+        run: pip install -r ${GITHUB_WORKSPACE}/requirements-dev.sh
+      - name: Build and Push
+        run: ${GITHUB_WORKSPACE}/script/release-github-workflow.sh
+        env:
+          PYPI: ${{secret.PYPI}}
