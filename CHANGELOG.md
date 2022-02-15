@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.5...v1.3.6) (2022-02-15)
+
+
+### Bug Fixes
+
+* **pypi:** remove specific python version for version.py exec ([7643004](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/7643004ff877def91408755131348dfdebe890eb))
+
 ## [1.3.5](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.4...v1.3.5) (2022-02-15)
 
 
