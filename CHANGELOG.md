@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.3...v1.0.4) (2022-02-15)
+
+
+### Bug Fixes
+
+* **release:** adding more log in prepareCmd command ([cbfa892](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/cbfa8927945549b43c858fbaa9a9ed35129504f6))
+
 ## [1.0.3](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.2...v1.0.3) (2022-02-15)
 
 
