@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.4...v1.3.5) (2022-02-15)
+
+
+### Bug Fixes
+
+* **pypi:** :) Ensure exec right ([315da35](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/315da3500ef87c8ea057ae70bfadcd430712c3a1))
+
 ## [1.3.4](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.3...v1.3.4) (2022-02-15)
 
 
