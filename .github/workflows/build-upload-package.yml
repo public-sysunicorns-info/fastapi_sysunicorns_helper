@@ -17,4 +17,4 @@ jobs:
       - name: Build and Push
         run: ${GITHUB_WORKSPACE}/script/release-github-workflow.sh
         env:
-          PYPI: ${{secret.PYPI}}
+          PYPI: ${{secrets.PYPI}}
