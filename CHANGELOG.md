@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.1...v1.3.2) (2022-02-15)
+
+
+### Bug Fixes
+
+* **pypi:** fix requirements file name and extension ([32ada74](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/32ada7487ea02635e022f95c5754fe7c73df442e))
+
 ## [1.3.1](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.0...v1.3.1) (2022-02-15)
 
 
