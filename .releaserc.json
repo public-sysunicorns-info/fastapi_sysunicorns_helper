@@ -8,7 +8,7 @@
         [
             "@semantic-release/exec",
             {
-              "publishCmd": "sed -i '' '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py"
+              "publishCmd": "sed -i '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py"
             }
         ],
         "@semantic-release/git"
