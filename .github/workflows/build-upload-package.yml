@@ -15,6 +15,6 @@ jobs:
       - name: Install Python Pip
         run: pip install -r ${GITHUB_WORKSPACE}/requirements-dev.txt
       - name: Build and Push
-        run: ${GITHUB_WORKSPACE}/script/release-github-workflow.sh
+        run: ${GITHUB_WORKSPACE}/script/build-upload-package-github-workflow.sh
         env:
           PYPI: ${{secrets.PYPI}}
