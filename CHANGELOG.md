@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.0...v1.1.1) (2022-02-15)
+
+
+### Bug Fixes
+
+* **release:** add version.py to semantic-release/git ([1b4dff4](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/1b4dff44266c2c3e03fa88b007113f4be6b8e68f))
+
 # [1.1.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.4...v1.1.0) (2022-02-15)
 
 
