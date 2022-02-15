@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install Python Pip
-        run: pip install -r ${GITHUB_WORKSPACE}/requirements-dev.sh
+        run: pip install -r ${GITHUB_WORKSPACE}/requirements-dev.txt
       - name: Build and Push
         run: ${GITHUB_WORKSPACE}/script/release-github-workflow.sh
         env:
