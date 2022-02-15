@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.0...v1.3.1) (2022-02-15)
+
+
+### Bug Fixes
+
+* **pypi:** fix typo on github action ([413dee6](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/413dee67e596ad18eb715551e4fef04dd64ccaab))
+
 # [1.3.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.2.0...v1.3.0) (2022-02-15)
 
 
