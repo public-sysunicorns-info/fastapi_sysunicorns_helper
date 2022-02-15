@@ -11,6 +11,9 @@
               "prepareCmd": "sed -i '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py && cat src/fastapi_sysunicorns/version.py && git add src/fastapi_sysunicorns/version.py"
             }
         ],
-        "@semantic-release/git"
+        ["@semantic-release/git", {
+            "assets": ["src/fastapi_sysunicorns/version.py", "CHANGELOG.md"],
+            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }]
     ]
 }
