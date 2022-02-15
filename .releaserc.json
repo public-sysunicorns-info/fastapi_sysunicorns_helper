@@ -1,0 +1,16 @@
+{
+    "branches": ["main"],
+    "plugins":[
+        "@semantic-release/github",
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        [
+            "@semantic-release/exec",
+            {
+              "publishCmd": "sed -i '' '3s/.*/version=\"${nextRelease.version}\"/' src/fastapi_sysunicorns/version.py"
+            }
+        ],
+        "@semantic-release/git"
+    ]
+}
