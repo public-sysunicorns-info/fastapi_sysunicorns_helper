@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.2.0...v1.3.0) (2022-02-15)
+
+
+### Features
+
+* **pypi:** add github workflow to build and push to pypi ([52f4502](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/52f4502aaea933665d5e579d82d34fcab7e33917))
+
 # [1.2.0](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.2...v1.2.0) (2022-02-15)
 
 
