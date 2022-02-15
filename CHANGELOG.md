@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.2...v1.3.3) (2022-02-15)
+
+
+### Bug Fixes
+
+* **pypi:** fix github action script name ([5b37ace](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/5b37acedec1c23ca6bc33ca60e3537835f718346))
+
 ## [1.3.2](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.3.1...v1.3.2) (2022-02-15)
 
 
