@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.2...v1.0.3) (2022-02-15)
+
+
+### Bug Fixes
+
+* **release:** put the command for update version in version.py to prepareCmd step ([9f81a94](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/9f81a94972019128fc48ac3886ce6b02a17d225e))
+
 ## [1.0.2](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.0.1...v1.0.2) (2022-02-15)
 
 
