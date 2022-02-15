@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.1...v1.1.2) (2022-02-15)
+
+
+### Bug Fixes
+
+* **docs:** try update to force release ([e722aa3](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/commit/e722aa3dd46dd52eb1ebfc57516fb1afbf5f7dfd))
+
 ## [1.1.1](https://github.com/public-sysunicorns-info/fastapi_sysunicorns_helper/compare/v1.1.0...v1.1.1) (2022-02-15)
 
 
