@@ -29,7 +29,7 @@ setuptools.setup(
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.9",
     install_requires=[
-        "pydantic >= 1.9.0, <2.0.0",
+        "pydantic >= 1.9.0, < 3.0.0",
         "fastapi >= 0.73.0, <1.0.0",
         "dependency-injector >= 4.0, <5.0"
     ]
